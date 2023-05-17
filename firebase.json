@@ -1,8 +1,12 @@
 {
   "hosting": {
-    "site": "emotion-diary-winterlood",
+    "site":"hey0woo-inflearn-project",
     "public": "build",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
         "source": "**",
