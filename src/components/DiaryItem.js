@@ -10,8 +10,6 @@ const DiaryItem = ({ id, emotion, content, date }) => {
 
   const strDate = new Date(parseInt(date)).toLocaleDateString();
 
-
-  // codeby 0512
   const goDetail = () => {
     navigate(`/diary/${id}`);
   };
